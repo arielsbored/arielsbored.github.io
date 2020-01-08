@@ -2,14 +2,96 @@
 	box-sizing: border-box;
 }
 
+
+
+@font-face {
+    font-family: 'awaititalic';
+    src: url('../fonts/await-italic-webfont.woff2') format('woff2'),
+         url('../fonts/await-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'awaitregular';
+    src: url('../fonts/await-regular-webfont.woff2') format('woff2'),
+         url('../fonts/await-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'glyphworldwasteland';
+    src: url('../fonts/glyphworld-wasteland-webfont.woff2') format('woff2'),
+         url('../fonts/glyphworld-wasteland-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'glyphworldanimal_soul';
+    src: url('../fonts/glyphworld-animalsoul-webfont.woff2') format('woff2'),
+         url('../fonts/glyphworld-animalsoul-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'bw_nista_geometric_demothin';
+    src: url('../fonts/bwnistageometricthin-webfont.woff2') format('woff2'),
+         url('../fonts/bwnistageometricthin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bw_nista_geometric_demoRg';
+    src: url('../fonts/bwnistageometricregular-webfont.woff2') format('woff2'),
+         url('../fonts/bwnistageometricregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bw_nista_geometric_demomedium';
+    src: url('../fonts/bwnistageometricmedium-webfont.woff2') format('woff2'),
+         url('../fonts/bwnistageometricmedium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
-	background: #FAEBD7 url('../images/vintage-concrete.png');
+	background: #FEBBED;
 	color: #333;
+   
 }
 
 a {
+    font-family: 'bw_nista_geometric_demothin';
 	text-decoration: none;
-	color: #333;
+	 color:#FA4041;
+    
 }
 
 a:hover { color: Tomato; }
@@ -22,20 +104,43 @@ header, nav, main, footer {
 
 /* Header styles */
 header { 
-	background-color: #000;
+	background-color: #FEBBED;
 	color: BlanchedAlmond;
 	min-height: 100px;
 	margin-top: 60px;
-	background-image: url("../images/stars.jpeg");
+    margin-bottom: -30px;
+   font-family: 'glyphworldanimal_soul';
+    letter-spacing: 20px;
+    text-align: center;
+/*	background-image: url("../images/stars.jpeg");*/
 }
 
 header h1 {
 	padding: 40px 60px;
-	font-size: 48px;
+	font-size: 100px;
+    text-shadow: -1px 0 #FA4041, 0 1px #FA4041, 1px 0 #FA4041, 0 -1px #FA4041;
 }
 
 
+
+
+bar { 
+	display: grid;
+	grid-template-columns: 60% 40%;
+    padding: 2px 0px;
+    margin: 0px 128px -0px 128px;
+    background-color: #FFF0D2;
+ }
+bar2 { 
+	display: grid;
+	grid-template-columns: 60% 40%;
+    padding: 2px 0px;
+    margin: 5px 128px -0px 128px;
+    background-color: #FFF0D2;
+ }
+
 /* Nav styles */
+/*
 nav { background-color: #333; }
 nav ul { 
 	display: flex;
@@ -44,17 +149,27 @@ nav ul {
 nav li { padding: 10px 10px; }
 nav a { color: BlanchedAlmond; }
 nav a:hover { color: white; }
+*/
 
 
 /* Main styles */
 main { 
-	background-color: #fff;
+	background-color: ##FF9F3B;
 	display: grid;
 	grid-template-columns: 60% 40%;
+    font-family: 'bw_nista_geometric_demomedium';
+   
 }
 
 section {
 	padding: 40px 60px;
+    margin: 30px 10px 30px 30px;
+/*    border: solid;*/
+    border-color: #FA4041;
+    background-color: #FFF0D2;
+    border-width: 1.5px;
+    color: #FA4041;
+   
 }
 
 section ul, aside ul {
@@ -62,16 +177,39 @@ section ul, aside ul {
 	margin-top: 20px; 
 	margin-left: 30px;
 	margin-bottom: 40px;
+    
+    
+    
 }
 
+ul li { padding: 2px 0px; 
+font-size: 14px;
+    text-transform: uppercase;
+    background-size: 20px;
+list-style: none;
+
+}
+
+
+
 aside {
-	padding: 40px 10px;
+    padding: 40px 60px;
+    margin: 30px 30px 30px 10px;
+/*    border: solid;*/
+    border-color: #FA4041;
+    background-color: #FFF0D2;
+    border-width: 1.5px;
+    color: #FA4041;
 }
 
 /* Footer styles */
+/*
 footer { 
 	background-color: #000;
 	color: white;
 	text-align: center;
+
  }
  footer p { padding: 20px; }
+*/
+
