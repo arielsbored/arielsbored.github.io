@@ -45,7 +45,7 @@
         
         p{
             color:#FD5741;
-            margin: 140px 140px;
+            margin: 119px 140px;
             text-transform: uppercase;
             font-weight: 200;
             font-size: 20px;
@@ -74,17 +74,32 @@
             margin: 43px;
             font-weight: 200
         }
+        img{
+            width:2%;
+            
+        }
+        .flower{
+          margin-left: 99px ;
+         
+           
+
+        }
     </style>
     
 </head>
 
 <body>
 <div id="container">
+    <img class="flower" src="images/flower.png" alt="flower"><br>
     <a href="#" class="btn">click
     </a><br>
     <b>to see how i feel about coding</b>
     <p class="text">←</p>
+
+    
+   
     </div>
+    
 <div class="list">
     		<ul id="list">
 			<li>☺</li>
@@ -99,6 +114,13 @@
     })
  		$('ul#list li:first').css('color', '#FC5B46');
 		$('ul#list li:last').css('color', '#3542FE');
+    
+    function blink_text() {
+    $('.flower').fadeOut(500);
+    $('.flower').fadeIn(500);
+}
+setInterval(blink_text, 1000);
+    
 </script>
 
 <link href="https://fonts.googleapis.com/css?family=Kulim+Park:200,200i,300,300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet"></body>
