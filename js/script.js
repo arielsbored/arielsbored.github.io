@@ -10,7 +10,7 @@ $(function () {
             `
 	<ul>
 		<a href="resources.html">resources</a>
-	    <a href="favorite-foods.html">Favorite Foods</a>
+	    <a href="food.html">Favorite Foods</a>
 		<a href="#">Apple</a>
 	</ul>
 	`

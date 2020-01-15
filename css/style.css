@@ -80,7 +80,7 @@
     
     
 body {
-    background-color: #ADF059;
+    background-color: #adf05f;
     margin: 0; 
     word-wrap: break-word;
     font-family: 'bw_nista_geometric_demoRg';
@@ -99,7 +99,7 @@ color:#FEBBED;}
  
 main {
     width: 500px;
-    margin-top: 150px;
+    margin-top: 100px;
     
 }
  
@@ -154,7 +154,13 @@ h2 {
     text-align: justify;
     color: #ADF059;
 }
- 
+img{
+    width: 100px;
+    position: relative;
+    left:200px;
+    bottom: -10px;
+     z-index:-1;
+}
 
 nav {
     background-color: #FFFDFD;
